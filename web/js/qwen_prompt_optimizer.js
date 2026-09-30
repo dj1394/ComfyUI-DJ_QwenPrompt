@@ -1,7 +1,7 @@
 import { app } from "../../../scripts/app.js";
 
 const MAX_IMAGES = 10;
-const NODE_NAME = "Qwen提示词优化 大江";
+const NODE_NAME = "ComfyUI-DJ_Qwen-image-2.1-Prompt";
 const PROMPT_HEIGHT_PROPERTY = "djQwenPromptHeight";
 const MIN_PROMPT_HEIGHT = 64;
 const SEED_WIDGET_NAMES = new Set(["种子值", "seed"]);

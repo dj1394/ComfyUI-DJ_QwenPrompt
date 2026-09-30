@@ -152,5 +152,5 @@ class QwenPromptOptimizer_DJ:
         }
 
 
-NODE_CLASS_MAPPINGS = {"Qwen提示词优化 大江": QwenPromptOptimizer_DJ}
-NODE_DISPLAY_NAME_MAPPINGS = {"Qwen提示词优化 大江": "Qwen提示词优化 大江"}
+NODE_CLASS_MAPPINGS = {"ComfyUI-DJ_Qwen-image-2.1-Prompt": QwenPromptOptimizer_DJ}
+NODE_DISPLAY_NAME_MAPPINGS = {"ComfyUI-DJ_Qwen-image-2.1-Prompt": "Qwen image 2.1 提示词优化 大江"}
