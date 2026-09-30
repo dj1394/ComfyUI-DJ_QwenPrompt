@@ -1,0 +1,5 @@
+# 本节点依赖 llama-cpp-python，且必须是带 Qwen35ChatHandler（Qwen3.5 视觉）
+# 支持的版本。ComfyUI 环境里通常已经装好，直接 pip 安装会覆盖掉现有版本，
+# 所以这里故意不写进依赖清单，需要时请手动确认版本后再装。
+numpy
+Pillow
