@@ -75,7 +75,7 @@ class QwenPromptOptimizer_DJ:
     RETURN_TYPES = ("STRING", "STRING", "BOOLEAN")
     RETURN_NAMES = ("prompt", "json", "是否反推")
     FUNCTION = "optimize"
-    CATEGORY = "大江工具箱/提示词"
+    CATEGORY = "DJ/QwenPrompt"
 
     @classmethod
     def IS_CHANGED(cls, 种子值=0, **kwargs):
@@ -152,5 +152,6 @@ class QwenPromptOptimizer_DJ:
         }
 
 
-NODE_CLASS_MAPPINGS = {"ComfyUI-DJ_Qwen-image-2.1-Prompt": QwenPromptOptimizer_DJ}
-NODE_DISPLAY_NAME_MAPPINGS = {"ComfyUI-DJ_Qwen-image-2.1-Prompt": "Qwen image 2.1 提示词优化 大江"}
+# 五名规则：单节点包，包名即功能 → Node ID = 文件夹名，不加后缀
+NODE_CLASS_MAPPINGS = {"ComfyUI-DJ_QwenPrompt": QwenPromptOptimizer_DJ}
+NODE_DISPLAY_NAME_MAPPINGS = {"ComfyUI-DJ_QwenPrompt": "ComfyUI-DJ_QwenPrompt"}

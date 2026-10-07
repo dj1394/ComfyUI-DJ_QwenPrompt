@@ -1,7 +1,8 @@
 import { app } from "../../../scripts/app.js";
 
 const MAX_IMAGES = 10;
-const NODE_NAME = "ComfyUI-DJ_Qwen-image-2.1-Prompt";
+// 五名规则：单节点包，Node ID = 文件夹名
+const NODE_NAME = "ComfyUI-DJ_QwenPrompt";
 const PROMPT_HEIGHT_PROPERTY = "djQwenPromptHeight";
 const MIN_PROMPT_HEIGHT = 64;
 const SEED_WIDGET_NAMES = new Set(["种子值", "seed"]);
