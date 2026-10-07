@@ -1,3 +1,5 @@
+![预览图](预览图.png)
+
 # ComfyUI-DJ_QwenPrompt
 
 > 版本 `260930-180257`
